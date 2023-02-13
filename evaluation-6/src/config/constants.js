@@ -7,7 +7,7 @@ const data = {
         "React Developer","Web App Developer","java","python","HTML","CSS"
       ],
       knowledge:[
-        "JavaScript","React JS","React Native","Node Js","java","python","HTML","CSS"
+        "JavaScript","ReactJS","React-Native","Node-Js","java","python","HTML","CSS"
       ],
       qual: "BE-CSE",
       email: "samsitha1210@gmail.com",
@@ -18,10 +18,20 @@ const data = {
       resume:"https://drive.google.com/file/d/1XUIwvlmvZhM_VJXU-L9G33eXwempoD8g/view?usp=share_link"
     },
     experience: [
-      {name:"Aster DM Healthcare",
+      {id:"1",
+        name:"Aster DM Healthcare",
       time:"December 2022 - Present"
     },
-    {name:"PSG College of Technology",
+    {id:"2",
+        name:"PSG College of Technology",
+      time:"July 2019 - july 2023"
+    },
+    {id:"3",
+        name:"Aster DM Healthcare",
+      time:"December 2022 - Present"
+    },
+    {id:"4",
+        name:"PSG College of Technology",
       time:"July 2019 - july 2023"
     },
     ],

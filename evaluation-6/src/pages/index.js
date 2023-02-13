@@ -5,16 +5,21 @@ import Projects from "@/components/Projects";
 
 export default function Home({posts}) {
   return (
-   <div className="row">
+    <div className="container">
+      <div className="row">
     <div className="col-3">
       <Sidebar />
     </div>
-    <div className="col-8">
-      <h1>Projects</h1>
+    <div className="col-8" style={{borderRadius:10,padding:5,marginLeft: 20,marginTop: 20,backgroundColor:'#CCF3EE',padding:10}}>
+      <h1 style={{textAlign:'center',padding:5}}>Projects</h1>
+      <div className="row" style={{alignContent:'center',paddingLeft:40}}>
         <Projects posts={posts} />
+        </div>
+      </div>
       </div>
    </div>
   );
+    
 }
 
 export const getStaticProps =async (context) => {

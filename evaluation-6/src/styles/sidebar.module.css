@@ -1,3 +1,34 @@
 .sidebar{
-    background-color: blue;
+    background-color: #BDF2D5;
+    margin:10px;
+    width:300px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.col{
+    border-radius: 10px;
+    width: 330px;
+    padding:5px;
+    margin-top: 20px;
+    background-color:#CCF3EE;
+}
+.list{
+    list-style-type: none;
+    display: inline;
+   
+}
+.list1{
+        list-style-type: none;
+        display: inline;
+        margin-right: 5px;
+}
+.list2{
+    list-style-type: none;
+    margin-right: 5px;
+}
+.ul{
+   display: inline;
+   padding:10px;
+   padding-top: 20px;
 }
