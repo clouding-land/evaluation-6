@@ -1,49 +1,28 @@
 import React from "react";
 import { useRouter } from "next/router";
+import Link from "next/link";
+import projects from "@/pages/projects";
+import experience from "@/pages/experience";
 
 const Nav = () => {
   const router = useRouter();
 
   return (
-    <nav className="navbar">
-      <ul className="navbar-list">
-        <li className="navbar-item">
-          <button
-            className="navbar-link"
-         
-            onClick={() => router.push("/")}
-          >
-            About
-          </button>
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark
+    py-3 shadow-sm">
+      <div className="container-fluid">
+      <ul className="navbar-nav  mb-2 mb-lg-0">
+      <li className="nav-item">
+          <Link  style={{color:'white'}} className="nav-link" href="/">Samsitha Banu</Link>
         </li>
-        <li className="navbar-item ">
-          <button
-            className="navbar-link"
-            
-            onClick={() => router.push("/resume")}
-          >
-            Resume
-          </button>
+        <li className="nav-item">
+          <Link style={{color:'white'}} className="nav-link" href="/projects">Projects</Link>
         </li>
-        <li className="navbar-item ">
-          <button
-            className="navbar-link"
-            
-            onClick={() => router.push("/projects")}
-          >
-            Projects
-          </button>
-        </li>
-        <li className="navbar-item ">
-          <button
-            className="navbar-link"
-           
-            onClick={() => router.push("/blog")}
-          >
-            Blog
-          </button>
+        <li className="nav-item">
+          <Link style={{color:'white'}} className="nav-link" href="/experience">Experience</Link>
         </li>
       </ul>
+      </div>
     </nav>
   );
 };

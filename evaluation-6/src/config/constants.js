@@ -1,4 +1,85 @@
-const items= [
+const data = {
+    aboutme:
+      "I come with an Web app background meaning that my React Native apps are practically indistinguishable from real native apps. Unlike web developers I know that mobile does not have unlimited resources, I optimize apps until animations and functionalities run smoothly. I worked in the no.1 corporate sector in India for 12 years, as well as worked on self-startup and other startups, and now working at an MNC as a React Native Developer (Sr. Software Engineer). I have developed 40+ native android applications using java while working as a freelancer and developed 10+ hybrid apps using React Native.",
+    personal: {
+      name: "Samsitha Banu",
+      desig: [
+        "React Developer","Web App Developer","java","python","HTML","CSS"
+      ],
+      knowledge:[
+        "JavaScript","React JS","React Native","Node Js","java","python","HTML","CSS"
+      ],
+      qual: "BE-CSE",
+      email: "samsitha1210@gmail.com",
+      location: "Pallivasal street,Theni,TamilNadu India-625531.",
+      github:"https://github.com/clouding-land",
+      twitter:"https://linkedin.com",
+      linkedin:"https://www.linkedin.com/in/samsitha-banu-shajahan-580915260/",
+      resume:"https://drive.google.com/file/d/1XUIwvlmvZhM_VJXU-L9G33eXwempoD8g/view?usp=share_link"
+    },
+    experience: [
+      {name:"Aster DM Healthcare",
+      time:"December 2022 - Present"
+    },
+    {name:"PSG College of Technology",
+      time:"July 2019 - july 2023"
+    },
+    ],
+    blog: [
+      {
+        href: "https://codingstepbystep.ttrc.in/blog/redux-4-0",
+        thumbnail:
+          "https://miro.medium.com/v2/resize:fit:720/format:webp/0*GCnnZBjpMlzN1jQ8.jpg",
+        category: "React Redux",
+        date: "July 24, 2022",
+        title: "React Redux 4.0 🎣",
+        description:
+          "In this blog, we'll understand the basics of Redux 4.0 and how to use it with React.",
+      },
+      {
+        href: "",
+        thumbnail: "",
+        category: "",
+        date: "",
+        title: "",
+        description: "",
+      },
+      {
+        href: "",
+        thumbnail: "",
+        category: "",
+        date: "",
+        title: "",
+        description: "",
+      },
+      {
+        href: "",
+        thumbnail: "",
+        category: "",
+        date: "",
+        title: "",
+        description: "",
+      },
+    ],
+    whatido: [
+      {
+        title: "Mobile App Development",
+        icon: "./assets/images/icon-app.svg",
+        description:
+          " Write reusable, clean scalable code and manage coding standards. Integrated several third-party frameworks like Firebase, Google Ads, Facebook Ads, and several payment gateways like Stripe, Paypal, etc.",
+      },
+      {
+        title: "Software Development Training",
+        icon: "./assets/images/icon-dev.svg",
+        description:
+          "  I am Teacher 👨‍🏫 by heart 💖. Love spreading my knowledge when ever get free time ⌚.",
+      },
+    ],
+  };
+  
+  export default data;
+  
+export const items= [
     {
       "id": 601004326,
       "node_id": "R_kgDOI9KZJg",
